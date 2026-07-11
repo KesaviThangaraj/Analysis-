@@ -1,18 +1,30 @@
-CivicFlow
-AI-Powered Smart Charging Intelligence Energy Management System
-CivicFlow AI-Powered Smart Charging Intelligence Energy Management System is a modern, responsive, and intelligent full-stack energy management platform designed to monitor, optimize, and automate EV charging and power consumption. The system uses AI-based analytics, IoT sensor integration, and real-time monitoring to improve charging efficiency, reduce energy waste, and provide transparent energy usage reports.
-🚀 Key System Features
-⚡ Role-Based Workspaces: Separate dashboards for Users, Charging Station Operators, and Administrators.
-🔋 Smart Charging Management: Monitor charging sessions, battery status, charging history, and energy consumption in real time.
-🤖 AI-Powered Energy Optimization: Uses intelligent algorithms to recommend optimal charging schedules and reduce electricity costs.
-🎙️ Voice Command Support: Users can control charging operations using voice commands through the Web Speech API.
-📍 Charging Station Locator: Interactive map displaying nearby charging stations with GPS coordinates.
-📊 Smart Analytics Dashboard: Displays energy consumption, charging trends, battery performance, and cost analysis using Chart.js.
-🌍 Energy Usage Heatmap: Visualizes energy demand and charging station utilization across different locations.
-📸 Charging Session Logs: Stores charging reports, equipment images, and maintenance records securely.
-🔔 Real-Time Notifications: Sends alerts for charging completion, low battery, maintenance schedules, and abnormal power usage.
-🔐 Secure Authentication: JWT Authentication, bcrypt password hashing, Helmet security headers, and Rate Limiting.
-🗄️ Database Schema & Architecture
+
+CivicFlow 
+
+AI-Powered Smart Charging Intelligence Energy Management System is a modern, responsive, and intelligent full-stack energy management platform designed to monitor, optimize, and automate EV charging and power consumption. The system uses AI-based analytics, IoT sensor integration, and real-time monitoring to improve charging efficiency, reduce energy waste, and provide transparent energy usage reports.
+ Key System Features
+ Role-Based Workspaces: Separate dashboards for Users, Charging Station Operators, and Administrators.
+
+ Smart Charging Management: Monitor charging sessions, battery status, charging history, and energy consumption in real time.
+
+AI-Powered Energy Optimization: Uses intelligent algorithms to recommend optimal charging schedules and reduce electricity costs.
+
+Voice Command Support: Users can control charging operations using voice commands through the Web Speech API.
+
+Charging Station Locator: Interactive map displaying nearby charging stations with GPS coordinates.
+
+Smart Analytics Dashboard: Displays energy consumption, charging trends, battery performance, and cost analysis using Chart.js.
+
+Energy Usage Heatmap: Visualizes energy demand and charging station utilization across different locations.
+
+Charging Session Logs: Stores charging reports, equipment images, and maintenance records securely.
+
+Real-Time Notifications: Sends alerts for charging completion, low battery, maintenance schedules, and abnormal power usage.
+
+Secure Authentication: 
+    JWT Authentication, bcrypt password hashing, Helmet security headers, and Rate Limiting.
+
+Database Schema & Architecture
 The system uses MySQL as the primary database with a local JSON fallback mechanism for offline development.
 Database schema location:
 /backend/database/schema.sql
@@ -36,7 +48,8 @@ notifications
 Alerts
 Charging reminders
 Maintenance notifications
-🛠️ Local Installation & Setup
+
+ Local Installation & Setup
 Prerequisites
 Node.js (v18 or higher)
 MySQL Server (v8.0 or higher)
@@ -63,7 +76,7 @@ npm run dev
 Application runs at:
 
 http://localhost:3000
-📝 API Documentation
+API Documentation
 Authentication APIs (/api/auth)
 POST /register
 Register a new user.
