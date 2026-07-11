@@ -1,8 +1,7 @@
-
-CivicFlow 
+AI-POWERED SMART CHARGING INTELLIGENCE ENERGY MANAGEMENT SYSTEM
 
 AI-Powered Smart Charging Intelligence Energy Management System is a modern, responsive, and intelligent full-stack energy management platform designed to monitor, optimize, and automate EV charging and power consumption. The system uses AI-based analytics, IoT sensor integration, and real-time monitoring to improve charging efficiency, reduce energy waste, and provide transparent energy usage reports.
- Key System Features
+Key System Features
  Role-Based Workspaces: Separate dashboards for Users, Charging Station Operators, and Administrators.
 
  Smart Charging Management: Monitor charging sessions, battery status, charging history, and energy consumption in real time.
@@ -100,7 +99,7 @@ Update profile.
 PUT /password
 Change password.
 (JWT Protected)
-Charging Management APIs (/api/charging)
+Charging Management APIs (/api/charging) (/api/charging)
 POST /start
 Start a charging session.
 Fields
@@ -135,7 +134,7 @@ Battery Performance
 Charging Cost
 Station Utilization
 AI Energy Recommendations
-☁️ Render Deployment Guide
+Render Deployment Guide
 Deploy Database
 Create a cloud MySQL database using:
 Aiven
